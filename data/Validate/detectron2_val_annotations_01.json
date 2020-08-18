@@ -314,53 +314,21 @@
         }
     ],
     "categories": [{
-            "supercategory": "type",
+            "supercategory": "doorway",
             "id": 1,
-            "name": "guardhouse"
+            "name": "carpark gantry"
         }, {
-            "supercategory": "type",
-            "id": 2,
-            "name": "car gantry"
-        }, {
-            "supercategory": "type",
-            "id": 3,
-            "name": "carpark entrance"
-        }, {
-            "supercategory": "type",
-            "id": 4,
-            "name": "ramp"
-        }, {
-            "supercategory": "type",
+            "supercategory": "doorway",
             "id": 5,
             "name": "stairs"
         }, {
-            "supercategory": "type",
-            "id": 6,
-            "name": "bollard"
-        }, {
-            "supercategory": "type",
-            "id": 7,
-            "name": "building entrance"
-        }, {
-            "supercategory": "type",
+            "supercategory": "doorway",
             "id": 8,
             "name": "shop entrance"
         }, {
-            "supercategory": "type",
-            "id": 9,
-            "name": "door"
-        }, {
-            "supercategory": "type",
-            "id": 10,
-            "name": "drop-off point"
-        }, {
-            "supercategory": "type",
+            "supercategory": "doorway",
             "id": 11,
             "name": "escalator"
-        }, {
-            "supercategory": "type",
-            "id": 12,
-            "name": "lift"
         }
     ]
 }

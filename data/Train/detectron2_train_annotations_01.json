@@ -1002,19 +1002,19 @@
         }
     ],
     "categories": [{
-            "supercategory": "type",
+            "supercategory": "doorway",
             "id": 1,
             "name": "carpark gantry"
         }, {
-            "supercategory": "type",
+            "supercategory": "doorway",
             "id": 5,
             "name": "stairs"
         }, {
-            "supercategory": "type",
+            "supercategory": "doorway",
             "id": 8,
             "name": "shop entrance"
         }, {
-            "supercategory": "type",
+            "supercategory": "doorway",
             "id": 11,
             "name": "escalator"
         }
