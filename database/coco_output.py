@@ -150,11 +150,11 @@ def db_train_test_val_split(*cat_id, test_ratio=0.2, val_ratio=0.2, filepath="",
     val_image_id = [val_images[i]['id'] for i in range(len(val_images))]
 
     for i in range(len(annotations)):
-        if annotations[i]['id'] in train_image_id:
+        if annotations[i]['image_id'] in train_image_id:
             train_annotations.append(annotations[i])
-        elif annotations[i]['id'] in test_image_id:
+        elif annotations[i]['image_id'] in test_image_id:
             test_annotations.append(annotations[i])
-        elif annotations[i]['id'] in val_image_id:
+        elif annotations[i]['image_id'] in val_image_id:
             val_annotations.append(annotations[i])
 
     save_as_coco(train_images, train_annotations, categories, filepath=filepath, filename=f"train_{file_suffix}.json")
