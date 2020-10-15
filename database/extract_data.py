@@ -36,8 +36,8 @@ def select_annotations(*cat_id):
     with connection:
         with connection.cursor() as cursor:
             cursor.execute(SELECT_ANNOTATIONS, (cat_id,))
-            return cursor.fetchone()
+            return cursor.fetchall()
 
 
-print(select_annotations(5))
+print(select_annotations(5,4))
 
